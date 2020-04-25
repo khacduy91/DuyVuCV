@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "68f9d225f46a97d6fba7765778e91442",
+    "revision": "5855e424460a287627a3fff91dc25881",
     "url": "/DuyVuCV/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/DuyVuCV/static/css/2.de424728.chunk.css"
   },
   {
-    "revision": "d13b905dc90dddc76c80",
+    "revision": "9df037c7d143d5dbc9c9",
     "url": "/DuyVuCV/static/css/main.fb3a9321.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/DuyVuCV/static/js/2.1401cf02.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "d13b905dc90dddc76c80",
-    "url": "/DuyVuCV/static/js/main.ddae3fae.chunk.js"
+    "revision": "9df037c7d143d5dbc9c9",
+    "url": "/DuyVuCV/static/js/main.db59d5d1.chunk.js"
   },
   {
     "revision": "f6012049952ff9b9f805",
