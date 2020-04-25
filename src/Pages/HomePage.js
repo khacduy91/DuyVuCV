@@ -128,7 +128,7 @@ class HomePage extends React.Component {
                         <ul>
                             <li><a href='https://khacduy91.github.io/DuyVuCV/'><span>Home</span></a></li>
                             <li><a href='https://khacduy91.github.io/DuyVuCV/#about' >About</a></li>
-                            <li><Link to='/porfolio/list' ><span>My Project</span></Link></li>
+                            <li><a href='https://khacduy91.github.io/Project' ><span>My Project</span></a></li>
                             <li><a href='https://khacduy91.github.io/DuyVuCV/#certificate'><span>CERTIFICATE</span></a></li>
                         </ul>
                     </div>
@@ -151,7 +151,7 @@ class HomePage extends React.Component {
                         <ul>
                             <li><a onClick={this.menuClose} href='https://khacduy91.github.io/DuyVuCV/#home'><span>Home</span></a></li>
                             <li><a onClick={this.menuClose} href='https://khacduy91.github.io/DuyVuCV/#about' >About</a></li>
-                            <li><Link to='/porfolio/list'><span>My Project</span></Link></li>
+                            <li><a onClick={this.menuClose} href='https://khacduy91.github.io/Project'><span>My Project</span></a></li>
                             <li><a onClick={this.menuClose} href='https://khacduy91.github.io/DuyVuCV/#certificate'><span>CERTIFICATE</span></a></li>
                         </ul>
                     </ul>
@@ -216,10 +216,10 @@ class HomePage extends React.Component {
                                     </a>
                                 </div> */}
                                 <div class='projectd'>
-                                    <Link to='/porfolio/list' >
+                                    <a href='/https://khacduy91.github.io/Project' >
                                         <img src='https://raw.githubusercontent.com/khacduy91/DuyVuCV/gh-pages/Project4.png'></img>
                                         <p class='projectTitle'>My React Project</p>
-                                    </Link>
+                                    </a>
                                 </div>
                             </div>
                         </div>
