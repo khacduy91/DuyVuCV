@@ -1,0 +1,15 @@
+[
+    {   
+        "id": 1,
+        "name": "Iphone X",
+        "price": 20000000,
+        "image": "https://cdn.tgdd.vn/Products/Images/42/114115/iphone-x-64gb-2-400x460.png",
+        "brand":  "1"
+    },
+    {   
+        "id": 2,
+        "name": "Iphone 11",
+        "price": 30000000,
+        "image": "https://cdn.tgdd.vn/Products/Images/42/200533/iphone-11-pro-max-green-400x400.jpg"
+    }
+]

@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/DuyVuCV/static/css/main.e670e000.chunk.css",
+    "main.js": "/DuyVuCV/static/js/main.d58a96e1.chunk.js",
+    "main.js.map": "/DuyVuCV/static/js/main.d58a96e1.chunk.js.map",
+    "runtime-main.js": "/DuyVuCV/static/js/runtime-main.4e7883dd.js",
+    "runtime-main.js.map": "/DuyVuCV/static/js/runtime-main.4e7883dd.js.map",
+    "static/css/2.de424728.chunk.css": "/DuyVuCV/static/css/2.de424728.chunk.css",
+    "static/js/2.6b4bb886.chunk.js": "/DuyVuCV/static/js/2.6b4bb886.chunk.js",
+    "static/js/2.6b4bb886.chunk.js.map": "/DuyVuCV/static/js/2.6b4bb886.chunk.js.map",
+    "index.html": "/DuyVuCV/index.html",
+    "precache-manifest.2d39d2ee7c237a86f0f73fac0ba34263.js": "/DuyVuCV/precache-manifest.2d39d2ee7c237a86f0f73fac0ba34263.js",
+    "service-worker.js": "/DuyVuCV/service-worker.js",
+    "static/css/2.de424728.chunk.css.map": "/DuyVuCV/static/css/2.de424728.chunk.css.map",
+    "static/css/main.e670e000.chunk.css.map": "/DuyVuCV/static/css/main.e670e000.chunk.css.map",
+    "static/js/2.6b4bb886.chunk.js.LICENSE.txt": "/DuyVuCV/static/js/2.6b4bb886.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.4e7883dd.js",
+    "static/css/2.de424728.chunk.css",
+    "static/js/2.6b4bb886.chunk.js",
+    "static/css/main.e670e000.chunk.css",
+    "static/js/main.d58a96e1.chunk.js"
+  ]
+}
