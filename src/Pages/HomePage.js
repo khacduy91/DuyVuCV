@@ -63,9 +63,9 @@ class HomePage extends React.Component {
 
         span2.style.display = "block"
         span1.style.transform = "rotate(0) translateY(0)"
-        span1.style.transition = "0.2s"
+        span1.style.transition = "1s"
         span3.style.transform = "rotate(0) translateY(0)"
-        span3.style.transition = "0.2s"
+        span3.style.transition = "1s"
         mobileMenu.style.left = "-100%"
         this.setState({ ...this.state, mobileClose: !this.state.mobileClose })
         console.log(this.state.close)
@@ -149,10 +149,10 @@ class HomePage extends React.Component {
                             <span></span>
                         </div>
                         <ul>
-                            <li><a onClick={this.handleClose} href='https://khacduy91.github.io/DuyVuCV/'><span>Home</span></a></li>
-                            <li><a onClick={this.handleClose} href='https://khacduy91.github.io/DuyVuCV/#about' >About</a></li>
+                            <li><a onClick={this.menuClose} href='https://khacduy91.github.io/DuyVuCV/'><span>Home</span></a></li>
+                            <li><a onClick={this.menuClose} href='https://khacduy91.github.io/DuyVuCV/#about' >About</a></li>
                             <li><Link to='/porfolio/list'><span>My Project</span></Link></li>
-                            <li><a onClick={this.handleClose} href='https://khacduy91.github.io/DuyVuCV/#certificate'><span>CERTIFICATE</span></a></li>
+                            <li><a onClick={this.menuClose} href='https://khacduy91.github.io/DuyVuCV/#certificate'><span>CERTIFICATE</span></a></li>
                         </ul>
                     </ul>
                 </div>
