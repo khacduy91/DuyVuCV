@@ -123,6 +123,7 @@ class HomePage extends React.Component {
                     </div>
                     <div class='mainmenu'>
                         <ul>
+                            <li><a href='/'><span>Home</span></a></li>
                             <li><a href='https://khacduy91.github.io/DuyVuCV/#about' >About</a></li>
                             <li><Link to='/porfolio/list' ><span>My Project</span></Link></li>
                             <li><a href='https://khacduy91.github.io/DuyVuCV/#certificate'><span>CERTIFICATE</span></a></li>
@@ -223,12 +224,12 @@ class HomePage extends React.Component {
                     <section class='section3'>
                         <div id="certificate">
                             <p class='title' style={{ textAlign: 'center' }}>MY CERTIFICATE</p>
-                            <p class='cerTitle'>FRONT END DEVELOPER <br/><span style={{ color: '#dc3545', fontFamily: 'helvetica' }}>NORDIC <span style={{ color: 'black' }}><FontAwesomeIcon icon={faAngleLeft} /> CODER <FontAwesomeIcon icon={faAngleRight} /></span></span></p>
+                            <p class='cerTitle'>FRONT END DEVELOPER <br /><span style={{ color: '#dc3545', fontFamily: 'helvetica' }}>NORDIC <span style={{ color: 'black' }}><FontAwesomeIcon icon={faAngleLeft} /> CODER <FontAwesomeIcon icon={faAngleRight} /></span></span></p>
                             <div class='cerImg'>
-                            <img src='https://raw.githubusercontent.com/khacduy91/DuyVuCV/gh-pages/certificate.jpg'></img>
+                                <img src='https://raw.githubusercontent.com/khacduy91/DuyVuCV/gh-pages/certificate.jpg'></img>
+                            </div>
                         </div>
-                        </div>
-                       
+
                     </section>
                 </div>
             </div>
