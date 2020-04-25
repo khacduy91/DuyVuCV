@@ -149,10 +149,10 @@ class HomePage extends React.Component {
                             <span></span>
                         </div>
                         <ul>
-                            <li><a href='https://khacduy91.github.io/DuyVuCV/'><span>Home</span></a></li>
-                            <li><a href='https://khacduy91.github.io/DuyVuCV/#about' >About</a></li>
+                            <li><a onClick={this.handleClose} href='https://khacduy91.github.io/DuyVuCV/'><span>Home</span></a></li>
+                            <li><a onClick={this.handleClose} href='https://khacduy91.github.io/DuyVuCV/#about' >About</a></li>
                             <li><Link to='/porfolio/list'><span>My Project</span></Link></li>
-                            <li><a href='https://khacduy91.github.io/DuyVuCV/#certificate'><span>CERTIFICATE</span></a></li>
+                            <li><a onClick={this.handleClose} href='https://khacduy91.github.io/DuyVuCV/#certificate'><span>CERTIFICATE</span></a></li>
                         </ul>
                     </ul>
                 </div>
