@@ -1,25 +1,25 @@
 {
   "files": {
     "main.css": "/DuyVuCV/static/css/main.becef1e2.chunk.css",
-    "main.js": "/DuyVuCV/static/js/main.db59d5d1.chunk.js",
-    "main.js.map": "/DuyVuCV/static/js/main.db59d5d1.chunk.js.map",
+    "main.js": "/DuyVuCV/static/js/main.01d81956.chunk.js",
+    "main.js.map": "/DuyVuCV/static/js/main.01d81956.chunk.js.map",
     "runtime-main.js": "/DuyVuCV/static/js/runtime-main.4e7883dd.js",
     "runtime-main.js.map": "/DuyVuCV/static/js/runtime-main.4e7883dd.js.map",
     "static/css/2.de424728.chunk.css": "/DuyVuCV/static/css/2.de424728.chunk.css",
-    "static/js/2.1401cf02.chunk.js": "/DuyVuCV/static/js/2.1401cf02.chunk.js",
-    "static/js/2.1401cf02.chunk.js.map": "/DuyVuCV/static/js/2.1401cf02.chunk.js.map",
+    "static/js/2.2e557dca.chunk.js": "/DuyVuCV/static/js/2.2e557dca.chunk.js",
+    "static/js/2.2e557dca.chunk.js.map": "/DuyVuCV/static/js/2.2e557dca.chunk.js.map",
     "index.html": "/DuyVuCV/index.html",
-    "precache-manifest.12e48ee65db5b92d331f83a7b10ec77b.js": "/DuyVuCV/precache-manifest.12e48ee65db5b92d331f83a7b10ec77b.js",
+    "precache-manifest.b8b9bfafab99c3b32d18982107b7c423.js": "/DuyVuCV/precache-manifest.b8b9bfafab99c3b32d18982107b7c423.js",
     "service-worker.js": "/DuyVuCV/service-worker.js",
     "static/css/2.de424728.chunk.css.map": "/DuyVuCV/static/css/2.de424728.chunk.css.map",
     "static/css/main.becef1e2.chunk.css.map": "/DuyVuCV/static/css/main.becef1e2.chunk.css.map",
-    "static/js/2.1401cf02.chunk.js.LICENSE.txt": "/DuyVuCV/static/js/2.1401cf02.chunk.js.LICENSE.txt"
+    "static/js/2.2e557dca.chunk.js.LICENSE.txt": "/DuyVuCV/static/js/2.2e557dca.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.4e7883dd.js",
     "static/css/2.de424728.chunk.css",
-    "static/js/2.1401cf02.chunk.js",
+    "static/js/2.2e557dca.chunk.js",
     "static/css/main.becef1e2.chunk.css",
-    "static/js/main.db59d5d1.chunk.js"
+    "static/js/main.01d81956.chunk.js"
   ]
 }
