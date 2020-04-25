@@ -145,6 +145,7 @@ class HomePage extends React.Component {
                             <span></span>
                         </div>
                         <ul>
+                            <li><a href='/'><span>Home</span></a></li>
                             <li><a href='/#about' >About</a></li>
                             <li><Link to='/porfolio/list'><span>My Project</span></Link></li>
                             <li><a href='/#certificate'><span>CERTIFICATE</span></a></li>
