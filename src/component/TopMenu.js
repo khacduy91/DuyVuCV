@@ -47,7 +47,7 @@ class TopMenu extends React.Component {
             <div className='TopMenu'>
                 <div className='link'>
                     <a href='/DuyVuCV/' >My CV</a>
-                    <Link to='/porfolio'>Product List</Link>
+                    <Link to='/DuyProject/porfolio'>Product List</Link>
                     <Link to='/login'>Login</Link>
                 </div>
                 <div className='search'>
