@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/DuyVuCV/precache-manifest.996da10420cf03c4e7831fc6338589d2.js"
+  "/DuyVuCV/precache-manifest.b764d29e5c53a0efdd3c820fae7244d1.js"
 );
 
 self.addEventListener('message', (event) => {
