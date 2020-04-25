@@ -149,8 +149,8 @@ class HomePage extends React.Component {
                             <span></span>
                         </div>
                         <ul>
-                            <li><a onClick={this.menuOpen} href='https://khacduy91.github.io/DuyVuCV/'><span>Home</span></a></li>
-                            <li><a onClick={this.menuOpen} href='https://khacduy91.github.io/DuyVuCV/#about' >About</a></li>
+                            <li><a onClick={this.menuClose} href='https://khacduy91.github.io/DuyVuCV/#home'><span>Home</span></a></li>
+                            <li><a onClick={this.menuClose} href='https://khacduy91.github.io/DuyVuCV/#about' >About</a></li>
                             <li><Link to='/porfolio/list'><span>My Project</span></Link></li>
                             <li><a onClick={this.menuClose} href='https://khacduy91.github.io/DuyVuCV/#certificate'><span>CERTIFICATE</span></a></li>
                         </ul>
@@ -158,7 +158,7 @@ class HomePage extends React.Component {
                 </div>
                 <div id='blank'></div>
                 {/* Right Container */}
-                <div class='rightContainer'>
+                <div class='rightContainer' id="home">
                     <section class='section1'>
                         <div class='intro'>
                             <p>Hi! I'm Duy Vu</p>
