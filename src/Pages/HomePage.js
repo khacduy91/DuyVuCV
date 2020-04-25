@@ -123,7 +123,7 @@ class HomePage extends React.Component {
                     </div>
                     <div class='mainmenu'>
                         <ul>
-                            <li><a href='/'><span>Home</span></a></li>
+                            <li><a href='/DuyVuCV'><span>Home</span></a></li>
                             <li><a href='https://khacduy91.github.io/DuyVuCV/#about' >About</a></li>
                             <li><Link to='/porfolio/list' ><span>My Project</span></Link></li>
                             <li><a href='https://khacduy91.github.io/DuyVuCV/#certificate'><span>CERTIFICATE</span></a></li>
