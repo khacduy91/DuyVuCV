@@ -24,7 +24,7 @@ class AuthPage extends React.Component {
     render() {
         const {auth} = this.props
         if(auth.isLogged){
-            return <Redirect to='/list' />
+            return <Redirect to='/porfolio' />
         }
         console.log(auth.isLogged)
         return (

@@ -18,7 +18,7 @@ class ProductCard extends React.Component {
         const { product, index} = this.props;
         return (
             <div className='product'>
-                <Link to={`DuyVuCV/detail?id=${product.id}&name=${product.name}&index=${index}`}>
+                <Link to={`/detail?id=${product.id}&name=${product.name}&index=${index}`}>
                         <img className='imgProduct' src={product.img_url} />
                 </Link>
                 <p className='product-name'>{product.name}</p>
