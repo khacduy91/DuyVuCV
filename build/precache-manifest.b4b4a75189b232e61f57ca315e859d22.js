@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "d719215adec812dd86c43885c925b921",
+    "revision": "d49f6f159ca76bd4ffdbd9886884fee7",
     "url": "/DuyVuCV/index.html"
   },
   {
-    "revision": "bc95bee8ebd6cb40396f",
+    "revision": "a1fd3ea52ee43541fa77",
     "url": "/DuyVuCV/static/css/2.de424728.chunk.css"
   },
   {
-    "revision": "d09aa5ea3a74524a872c",
+    "revision": "f8c17c9180af15219260",
     "url": "/DuyVuCV/static/css/main.becef1e2.chunk.css"
   },
   {
-    "revision": "bc95bee8ebd6cb40396f",
-    "url": "/DuyVuCV/static/js/2.2e557dca.chunk.js"
+    "revision": "a1fd3ea52ee43541fa77",
+    "url": "/DuyVuCV/static/js/2.1401cf02.chunk.js"
   },
   {
     "revision": "bf23039b4e70a07c5aeb1b4010df3572",
-    "url": "/DuyVuCV/static/js/2.2e557dca.chunk.js.LICENSE.txt"
+    "url": "/DuyVuCV/static/js/2.1401cf02.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "d09aa5ea3a74524a872c",
-    "url": "/DuyVuCV/static/js/main.01d81956.chunk.js"
+    "revision": "f8c17c9180af15219260",
+    "url": "/DuyVuCV/static/js/main.80152139.chunk.js"
   },
   {
     "revision": "f6012049952ff9b9f805",
