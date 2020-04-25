@@ -124,7 +124,7 @@ class HomePage extends React.Component {
                     <div class='mainmenu'>
                         <ul>
                             <li><a href='https://khacduy91.github.io/DuyVuCV/#about' >About</a></li>
-                            <li><Link to='/DuyProject/pofolio' ><span>My Project</span></Link></li>
+                            <li><Link to='/porfolio/list' ><span>My Project</span></Link></li>
                             <li><a href='https://khacduy91.github.io/DuyVuCV/#certificate'><span>CERTIFICATE</span></a></li>
                         </ul>
                     </div>
@@ -146,7 +146,7 @@ class HomePage extends React.Component {
                         </div>
                         <ul>
                             <li><a href='/#about' >About</a></li>
-                            <li><Link to='/porfolio'><span>My Project</span></Link></li>
+                            <li><Link to='/porfolio/list'><span>My Project</span></Link></li>
                             <li><a href='/#certificate'><span>CERTIFICATE</span></a></li>
                         </ul>
                     </ul>
@@ -211,7 +211,7 @@ class HomePage extends React.Component {
                                     </a>
                                 </div> */}
                                 <div class='projectd'>
-                                    <Link to='/porfolio' >
+                                    <Link to='/porfolio/list' >
                                         <img src='https://raw.githubusercontent.com/khacduy91/DuyVuCV/gh-pages/Project4.png'></img>
                                         <p class='projectTitle'>My React Project</p>
                                     </Link>

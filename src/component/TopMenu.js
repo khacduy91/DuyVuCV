@@ -47,13 +47,13 @@ class TopMenu extends React.Component {
             <div className='TopMenu'>
                 <div className='link'>
                     <a href='/DuyVuCV/' >My CV</a>
-                    <Link to='/DuyProject/porfolio'>Product List</Link>
+                    <Link to='/porfolio/list'>Product List</Link>
                     <Link to='/login'>Login</Link>
                 </div>
                 <div className='search'>
-                    <form onSubmit={() => <Link to='/porfolio'>{this.handleSearch}</Link>}>
+                    <form onSubmit={() => <Link to='/porfolio/list'>{this.handleSearch}</Link>}>
                         <input type='text' placeholder='type what you want' onChange={this.handleChange}></input>
-                        <Link to='/porfolio' ><button onClick={this.handleSearch}>Search</button></Link>
+                        <Link to='/porfolio/list' ><button onClick={this.handleSearch}>Search</button></Link>
                     </form>
 
                 </div>

@@ -14,7 +14,7 @@ class App extends React.Component {
       <React.Fragment>
         <Router>
               <Switch>
-                <Route exact path='/DuyProject' component={Porfolio} />
+                <Route exact path='/porfolio/list' component={Porfolio} />
                 <Route path='/' component={HomePage} />
               </Switch>
         </Router>
