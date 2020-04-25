@@ -445,6 +445,9 @@ input[type=number]::-webkit-inner-spin-button {
     opacity: 1;
     right  : 0;
 }
+.cartDisplayMobile {
+    display: none;
+}
 
 /* Mobile */
 @media only screen and (max-width: 600px) {
