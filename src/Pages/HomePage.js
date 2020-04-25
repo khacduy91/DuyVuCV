@@ -216,7 +216,7 @@ class HomePage extends React.Component {
                                     </a>
                                 </div> */}
                                 <div class='projectd'>
-                                    <a href='/https://khacduy91.github.io/Project' >
+                                    <a href='https://khacduy91.github.io/Project' >
                                         <img src='https://raw.githubusercontent.com/khacduy91/DuyVuCV/gh-pages/Project4.png'></img>
                                         <p class='projectTitle'>My React Project</p>
                                     </a>
