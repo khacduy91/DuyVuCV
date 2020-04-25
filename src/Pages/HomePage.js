@@ -119,7 +119,7 @@ class HomePage extends React.Component {
                 {/* Menu Desktop */}
                 <div id='menu' class='menu'>
                     <div class='logo'>
-                        <img src='https://raw.githubusercontent.com/khacduy91/khacduy_CV/gh-pages/Profile.jpg' />
+                        <img src='https://raw.githubusercontent.com/khacduy91/DuyVuCV/gh-pages/Profile.jpg' />
                     </div>
                     <div class='mainmenu'>
                         <ul>
@@ -158,7 +158,7 @@ class HomePage extends React.Component {
                             <span>I graduated from Front End cource of Nordic Coder</span>
                         </div>
                         <div class='introImg'>
-                            <img src='https://raw.githubusercontent.com/khacduy91/khacduy_CV/gh-pages/Programming-removebg.png'></img>
+                            <img src='https://raw.githubusercontent.com/khacduy91/DuyVuCV/gh-pages/Programming-removebg.png'></img>
                         </div>
                     </section>
                     <section class='section2'>
@@ -192,13 +192,13 @@ class HomePage extends React.Component {
                             <div class='project'>
                                 <div class='projecta'>
                                     <a href='http://khacduyland.com/'>
-                                        <img src='https://raw.githubusercontent.com/khacduy91/khacduy_CV/gh-pages/Project1.png'></img>
+                                        <img src='https://raw.githubusercontent.com/khacduy91/DuyVuCV/gh-pages/Project1.png'></img>
                                         <p class='projectTitle'>khacduyland.com</p>
                                     </a>
                                 </div>
                                 <div class='projectb'>
                                     <a href='http://rivana.vn/'>
-                                        <img src='https://raw.githubusercontent.com/khacduy91/khacduy_CV/gh-pages/Project2.png'></img>
+                                        <img src='https://raw.githubusercontent.com/khacduy91/DuyVuCV/gh-pages/Project2.png'></img>
                                         <p class='projectTitle'>rivana.vn</p>
                                     </a>
                                 </div>
@@ -210,7 +210,7 @@ class HomePage extends React.Component {
                                 </div> */}
                                 <div class='projectd'>
                                     <Link to='/khacduy91_CV/porfolio'>
-                                        <img src='https://raw.githubusercontent.com/khacduy91/khacduy_CV/gh-pages/Project4.png'></img>
+                                        <img src='https://raw.githubusercontent.com/khacduy91/DuyVuCV/gh-pages/Project4.png'></img>
                                         <p class='projectTitle'>My React Project</p>
                                     </Link>
                                 </div>
@@ -222,7 +222,7 @@ class HomePage extends React.Component {
                             <p class='title' style={{ textAlign: 'center' }}>MY CERTIFICATE</p>
                             <p class='cerTitle'>FRONT END DEVELOPER <br/><span style={{ color: '#dc3545', fontFamily: 'helvetica' }}>NORDIC <span style={{ color: 'black' }}><FontAwesomeIcon icon={faAngleLeft} /> CODER <FontAwesomeIcon icon={faAngleRight} /></span></span></p>
                             <div class='cerImg'>
-                            <img src='https://raw.githubusercontent.com/Assist2709/DuyVuCV/gh-pages/certificate.jpg'></img>
+                            <img src='https://raw.githubusercontent.com/khacduy91/DuyVuCV/gh-pages/certificate.jpg'></img>
                         </div>
                         </div>
                        
