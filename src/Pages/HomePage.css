@@ -121,6 +121,12 @@
     color:crimson;
     transition: 0.3s;
 }
+.line {
+    width: 4px;
+    height: 20px;
+    background-color: crimson;
+    margin-bottom: 10px;
+    }
 /**Blank**/
 #blank {
     display: block;
