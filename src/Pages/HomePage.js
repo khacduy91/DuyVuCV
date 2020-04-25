@@ -123,9 +123,9 @@ class HomePage extends React.Component {
                     </div>
                     <div class='mainmenu'>
                         <ul>
-                            <li><a href='/#about' >About</a></li>
-                            <li><a href='/DuyVuCV/porfolio' target="_blank"><span>My Project</span></a></li>
-                            <li><a href='/#certificate'><span>CERTIFICATE</span></a></li>
+                            <li><a href='DuyVuCV/#about' >About</a></li>
+                            <li><Link to='/DuyVuCV/porfolio' target="_blank"><span>My Project</span></Link></li>
+                            <li><a href='DuyVuCV/#certificate'><span>CERTIFICATE</span></a></li>
                         </ul>
                     </div>
                     <div class='socialContact'>
@@ -146,7 +146,7 @@ class HomePage extends React.Component {
                         </div>
                         <ul>
                             <li><a href='/#about' >About</a></li>
-                            <li><a href='/DuyVu/porfolio' target="_blank"><span>My Project</span></a></li>
+                            <li><Link to='/DuyVuCV/porfolio' target="_blank"><span>My Project</span></Link></li>
                             <li><a href='/#certificate'><span>CERTIFICATE</span></a></li>
                         </ul>
                     </ul>
@@ -211,10 +211,10 @@ class HomePage extends React.Component {
                                     </a>
                                 </div> */}
                                 <div class='projectd'>
-                                    <a href='/DuyVuCV/porfolio' target="_blank">
+                                    <Link to='/DuyVuCV/porfolio' target="_blank">
                                         <img src='https://raw.githubusercontent.com/khacduy91/DuyVuCV/gh-pages/Project4.png'></img>
                                         <p class='projectTitle'>My React Project</p>
-                                    </a>
+                                    </Link>
                                 </div>
                             </div>
                         </div>
