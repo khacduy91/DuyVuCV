@@ -41,24 +41,24 @@ class Category extends React.Component {
         return (
             <div>
                 <div className='category'>
-                    <Link to='/khacduy91_CV/porfolio'><input type='button' onClick={this.Search} value="Iphone" /></Link>
-                    <Link to='/khacduy91_CV/porfolio'><input type='button' onClick={this.Search} value="Samsung" /></Link>
-                    <Link to='/khacduy91_CV/porfolio'><input type='button' onClick={this.Search} value="Oppo" /></Link>
-                    <Link to='/khacduy91_CV/porfolio'><input type='button' onClick={this.Search} value="Sony" /></Link>
-                    <Link to='/khacduy91_CV/porfolio'><input type='button' onClick={this.Search} value="Huawei" /></Link>
-                    <Link to='/khacduy91_CV/porfolio'><input type='button' onClick={this.Search} value="Vivo" /></Link>
-                    <Link to='/khacduy91_CV/porfolio'><input type='button' onClick={this.Search} value="Vsmart" /></Link>
-                    <Link to='/khacduy91_CV/porfolio'><input type='button' onClick={this.Search} value="Realme" /></Link>
-                    <Link to='/khacduy91_CV/porfolio'><input type='button' onClick={this.Search} value="Mobell" /></Link>
-                    <Link to='/khacduy91_CV/porfolio'><input type='button' onClick={this.Search} value="Nokia" /></Link>
-                    <Link to='/khacduy91_CV/porfolio'><input type='button' onClick={this.Search} value="BlackBerry" /></Link>
-                    <Link to='/khacduy91_CV/porfolio'><input type='button' onClick={this.Search} value="Lenovo" /></Link>
-                    <Link to='/khacduy91_CV/porfolio'><input type='button' onClick={this.Search} value="Coolpad" /></Link>
-                    <Link to='/khacduy91_CV/porfolio'><input type='button' onClick={this.Search} value="Ipad" /></Link>
-                    <Link to='/khacduy91_CV/porfolio'><input type='button' onClick={this.Search} value="Galaxy Tab" /></Link>
+                    <Link to='/DuyVuCV/porfolio'><input type='button' onClick={this.Search} value="Iphone" /></Link>
+                    <Link to='/DuyVuCV/porfolio'><input type='button' onClick={this.Search} value="Samsung" /></Link>
+                    <Link to='/DuyVuCV/porfolio'><input type='button' onClick={this.Search} value="Oppo" /></Link>
+                    <Link to='/DuyVuCV/porfolio'><input type='button' onClick={this.Search} value="Sony" /></Link>
+                    <Link to='/DuyVuCV/porfolio'><input type='button' onClick={this.Search} value="Huawei" /></Link>
+                    <Link to='/DuyVuCV/porfolio'><input type='button' onClick={this.Search} value="Vivo" /></Link>
+                    <Link to='/DuyVuCV/porfolio'><input type='button' onClick={this.Search} value="Vsmart" /></Link>
+                    <Link to='/DuyVuCV/porfolio'><input type='button' onClick={this.Search} value="Realme" /></Link>
+                    <Link to='/DuyVuCV/porfolio'><input type='button' onClick={this.Search} value="Mobell" /></Link>
+                    <Link to='/DuyVuCV/porfolio'><input type='button' onClick={this.Search} value="Nokia" /></Link>
+                    <Link to='/DuyVuCV/porfolio'><input type='button' onClick={this.Search} value="BlackBerry" /></Link>
+                    <Link to='/DuyVuCV/porfolio'><input type='button' onClick={this.Search} value="Lenovo" /></Link>
+                    <Link to='/DuyVuCV/porfolio'><input type='button' onClick={this.Search} value="Coolpad" /></Link>
+                    <Link to='/DuyVuCV/porfolio'><input type='button' onClick={this.Search} value="Ipad" /></Link>
+                    <Link to='/DuyVuCV/porfolio'><input type='button' onClick={this.Search} value="Galaxy Tab" /></Link>
                 </div>
                 <div>
-                    <form onSubmit={() => <Link to='/khacduy91_CV/porfolio'>{this.handleFilterSubmit}</Link>}>
+                    <form onSubmit={() => <Link to='/DuyVuCV/porfolio'>{this.handleFilterSubmit}</Link>}>
                         <div className='formFilter'>
                             <input type='text' onChange={this.handleChange} value={this.state.queryvalue} required></input>
                             <label className='labelname'>
@@ -77,7 +77,7 @@ class Category extends React.Component {
                                 <span className='contentprice'>đến</span>
                             </label>
                         </div>
-                        <Link to='/khacduy91_CV/porfolio'><button className='submitForm' onClick={this.handleFilterSubmit}>Search</button></Link>
+                        <Link to='/DuyVuCV/porfolio'><button className='submitForm' onClick={this.handleFilterSubmit}>Search</button></Link>
                     </form>
                 </div>
             </div>

@@ -124,8 +124,8 @@ class HomePage extends React.Component {
                     <div class='mainmenu'>
                         <ul>
                             <li><a href='/#about' >About</a></li>
-                            <li><Link to='/khacduy91_CV/porfolio'><span>Porfolio</span></Link></li>
-                            <li><a href='/#contact'><span>Contact</span></a></li>
+                            <li><a href='/DuyVuCV/porfolio' target="_blank"><span>My Project</span></a></li>
+                            <li><a href='/#certificate'><span>CERTIFICATE</span></a></li>
                         </ul>
                     </div>
                     <div class='socialContact'>
@@ -144,9 +144,11 @@ class HomePage extends React.Component {
                         <div class='line'>
                             <span></span>
                         </div>
-                        <li><a href='/#about' >About</a></li>
-                        <li><Link to='/khacduy91_CV/porfolio'><span>Porfolio</span></Link></li>
-                        <li><a href='/#contact'><span>Contact</span></a></li>
+                        <ul>
+                            <li><a href='/#about' >About</a></li>
+                            <li><a href='/DuyVu/porfolio' target="_blank"><span>My Project</span></a></li>
+                            <li><a href='/#certificate'><span>CERTIFICATE</span></a></li>
+                        </ul>
                     </ul>
                 </div>
                 <div id='blank'></div>
@@ -162,7 +164,7 @@ class HomePage extends React.Component {
                         </div>
                     </section>
                     <section class='section2'>
-                        <div class='aboutMe'>
+                        <div class='aboutMe' id='about'>
                             <div>
                                 <p class='title'>ABOUT ME</p>
                                 <p class='secondTitle'>WHO AM I?</p>
@@ -191,13 +193,13 @@ class HomePage extends React.Component {
                             <p class='secondTitle'>RECENT WORK</p>
                             <div class='project'>
                                 <div class='projecta'>
-                                    <a href='http://khacduyland.com/'>
+                                    <a href='http://khacduyland.com/' target="_blank">
                                         <img src='https://raw.githubusercontent.com/khacduy91/DuyVuCV/gh-pages/Project1.png'></img>
                                         <p class='projectTitle'>khacduyland.com</p>
                                     </a>
                                 </div>
                                 <div class='projectb'>
-                                    <a href='http://rivana.vn/'>
+                                    <a href='http://rivana.vn/' target="_blank">
                                         <img src='https://raw.githubusercontent.com/khacduy91/DuyVuCV/gh-pages/Project2.png'></img>
                                         <p class='projectTitle'>rivana.vn</p>
                                     </a>
@@ -209,16 +211,16 @@ class HomePage extends React.Component {
                                     </a>
                                 </div> */}
                                 <div class='projectd'>
-                                    <Link to='/khacduy91_CV/porfolio'>
+                                    <a href='/DuyVuCV/porfolio' target="_blank">
                                         <img src='https://raw.githubusercontent.com/khacduy91/DuyVuCV/gh-pages/Project4.png'></img>
                                         <p class='projectTitle'>My React Project</p>
-                                    </Link>
+                                    </a>
                                 </div>
                             </div>
                         </div>
                     </section>
                     <section class='section3'>
-                        <div>
+                        <div id="certificate">
                             <p class='title' style={{ textAlign: 'center' }}>MY CERTIFICATE</p>
                             <p class='cerTitle'>FRONT END DEVELOPER <br/><span style={{ color: '#dc3545', fontFamily: 'helvetica' }}>NORDIC <span style={{ color: 'black' }}><FontAwesomeIcon icon={faAngleLeft} /> CODER <FontAwesomeIcon icon={faAngleRight} /></span></span></p>
                             <div class='cerImg'>

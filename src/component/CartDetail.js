@@ -12,7 +12,7 @@ class CartDetail extends React.Component {
         const { cart, index , indexCart} = this.props
         return (
             <div>
-                <Link style={{ textDecoration: 'none' }} to={`/detail?id=${cart[index].id || cart[index].product_id}&name=${cart[index].name}&index=${indexCart[index]}`}>
+                <Link style={{ textDecoration: 'none' }} to={`DuyVuCV/detail?id=${cart[index].id || cart[index].product_id}&name=${cart[index].name}&index=${indexCart[index]}`}>
                     <div>
                         <div className='cartDetail'>
                             <img src={cart[index].img_url || BASE_URL_IMAGE + cart[index].images[0]} />

@@ -27,7 +27,7 @@ class Porfolio extends React.Component {
                 <Category />
               </Col>
               <Col md={6} wider='true'><Switch>
-                <Route exact path='/khacduy91_CV/porfolio' component={ListPage} />
+                <Route exact path='/DuyVuCV/porfolio' component={ListPage} />
                 <Route exact path='/login' component={AuthPage} />
                 <Route exact path='/detail' component={DetailPage} />
               </Switch>

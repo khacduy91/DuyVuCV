@@ -25,7 +25,7 @@ class ListPage extends React.Component {
                     {this.props.products.map((item, index) => (
                         <ProductCard product={item} index={index} key={index} />
                     ))}</div>
-                {status === 'start' && <img style={{marginLeft:'100px'}} src='https://raw.githubusercontent.com/khacduy91/khacduy_CV/gh-pages/newgif.gif'></img>}
+                {status === 'start' && <img style={{marginLeft:'100px'}} src='https://raw.githubusercontent.com/khacduy91/DuyVuCV/gh-pages/newgif.gif'></img>}
                 {status === 'fail' && <p>{errMsg}</p>}
 
                 <button className='btnLoadmore' onClick={this.handleLoadmore}>Load more</button>

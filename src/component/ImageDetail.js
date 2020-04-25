@@ -15,7 +15,7 @@ class ImageDetail extends React.Component {
             this.props.getIndexImage(indexImage)
         }
         return (
-            <Link to={`/detail?id=${product.id}&name=${product.name}&index=${index}`}>
+            <Link to={`DuyVuCV/detail?id=${product.id}&name=${product.name}&index=${index}`}>
                 <img onClick={() => getImage(index)} style={{ width: '50px' }} src={BASE_URL_IMAGE + product.images[index]} /> 
             </Link>
         )
