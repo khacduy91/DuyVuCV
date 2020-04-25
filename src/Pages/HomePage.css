@@ -183,7 +183,7 @@
     position: fixed;
     top: 20px;
     right: 20px;
-    z-index: 2;
+    z-index: 4;
     }
     .hamburger span:nth-child(1) {
     width: 30px;
