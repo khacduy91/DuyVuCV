@@ -124,7 +124,7 @@ class HomePage extends React.Component {
                     <div class='mainmenu'>
                         <ul>
                             <li><a href='https://khacduy91.github.io/DuyVuCV/#about' >About</a></li>
-                            <li><Link to='DuyProject/porfolio' ><span>My Project</span></Link></li>
+                            <li><Link to='https://khacduy91.github.io/DuyProject/porfolio' ><span>My Project</span></Link></li>
                             <li><a href='https://khacduy91.github.io/DuyVuCV/#certificate'><span>CERTIFICATE</span></a></li>
                         </ul>
                     </div>
