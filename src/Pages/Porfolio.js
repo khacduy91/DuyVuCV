@@ -32,7 +32,7 @@ class Porfolio extends React.Component {
                 <Route exact path='/detail' component={DetailPage} />
               </Switch>
               </Col>
-              <Col md={3}>
+              <Col md={3} className={'cartCol'}>
                 <Cart />
               </Col>
             </Row>

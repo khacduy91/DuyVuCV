@@ -8,28 +8,28 @@ import '../App.css'
 
 class ListPage extends React.Component {
     // // state = { query: '' }
-    componentWillUnmount(){
-        this.props.getProductsSendo(this.props.query,1,true)
+    componentWillUnmount() {
+        this.props.getProductsSendo(this.props.query, 1, true)
     }
     handleLoadmore = () => {
-        let {page,isFilter} = this.props
+        let { page, isFilter } = this.props
         page++;
-        this.props.getProductsSendo(this.props.query,page,false,isFilter)
+        this.props.getProductsSendo(this.props.query, page, false, isFilter)
     }
     render() {
         const { errMsg, status, index } = this.props;
-        console.log('index ' +index)
+        console.log('index ' + index)
         return (
-            <div className={'container'}>
+            <div className='listPage'>
                 <div className='products'>
                     {this.props.products.map((item, index) => (
                         <ProductCard product={item} index={index} key={index} />
                     ))}</div>
-                {status === 'start' && <img style={{marginLeft:'100px'}} src='https://raw.githubusercontent.com/khacduy91/DuyVuCV/gh-pages/newgif.gif'></img>}
-                {status === 'fail' && <p>{errMsg}</p>}
-
-                <button className='btnLoadmore' onClick={this.handleLoadmore}>Load more</button>
-
+                <div className='status'>
+                    {status === 'start' && <img style={{ marginLeft: '100px' }} src='https://raw.githubusercontent.com/khacduy91/DuyVuCV/gh-pages/newgif.gif'></img>}
+                    {status === 'fail' && <p>{errMsg}</p>}
+                    <button className='btnLoadmore' onClick={this.handleLoadmore}>Load more</button>
+                </div>
             </div>
         )
     }
@@ -37,10 +37,10 @@ class ListPage extends React.Component {
 ListPage.defaultProps = {
     products: [],
     category: '',
-    cart:[],
-    query:'',
+    cart: [],
+    query: '',
     indexImage: 0,
-    
+
 }
 
 const mapsStateToProps = state => ({

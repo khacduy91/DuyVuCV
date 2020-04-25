@@ -57,7 +57,7 @@ class Category extends React.Component {
                     <Link to='/porfolio/list'><input type='button' onClick={this.Search} value="Ipad" /></Link>
                     <Link to='/porfolio/list'><input type='button' onClick={this.Search} value="Galaxy Tab" /></Link>
                 </div>
-                <div>
+                <div class='filterProducts'>
                     <form onSubmit={() => <Link to='/porfolio/list'>{this.handleFilterSubmit}</Link>}>
                         <div className='formFilter'>
                             <input type='text' onChange={this.handleChange} value={this.state.queryvalue} required></input>
